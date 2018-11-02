@@ -5,8 +5,6 @@ public class Papir {
 	private String gramaza;
 	private String sadrzaj;
 	
-	
-	
 	public Papir(String gramaza, String sadrzaj) {
 		super();
 		this.gramaza = gramaza;

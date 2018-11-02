@@ -12,7 +12,7 @@ public class Aplikacija {
 
 		stampac.stampajNaEkranu(a4);
 		stampac.stampajNaEkranu(a0);
-		
+						
 		stampac.stampaj(a4);
 		stampac.stampaj(a4);
 		stampac.stampaj(a4, 4);

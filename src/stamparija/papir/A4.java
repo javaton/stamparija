@@ -1,9 +1,8 @@
 package stamparija.papir;
 
-import stamparija.Prikazi;
 import stamparija.Stampa;
 
-public class A4 extends Papir implements Stampa, Prikazi {
+public class A4 extends Papir implements Stampa {
 
 	public A4(String gramaza, String sadrzaj) {
 		super(gramaza, sadrzaj);
@@ -15,6 +14,7 @@ public class A4 extends Papir implements Stampa, Prikazi {
 		System.out.println(getSadrzaj());		
 	}
 	
+	@Override
 	public String pripremiZaStampu() {
 		return getSadrzaj();
 	}

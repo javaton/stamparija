@@ -1,6 +1,6 @@
 package stamparija;
 
-public interface Stampa {
+public interface Stampa extends Prikazi {
 
 	public String pripremiZaStampu();
 }
