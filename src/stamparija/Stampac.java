@@ -11,9 +11,10 @@ public class Stampac {
 	
 	public void stampaj(Stampa stampa) {
 		if(brojKopija > 0) {
+			for(String s : stampa.pripremiZaStampu()) {
 			brojKopija = brojKopija - 1; //brojkopija--;
-		System.out.println("Izlaz na stampac: " 
-							+ stampa.pripremiZaStampu());
+			System.out.println("Izlaz na stampac: " + s);
+			}
 		} else {
 			System.out.println("Nema Papira!!!");
 		}	

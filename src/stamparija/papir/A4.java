@@ -1,5 +1,8 @@
 package stamparija.papir;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import stamparija.Stampa;
 
 public class A4 extends Papir implements Stampa {
@@ -15,8 +18,10 @@ public class A4 extends Papir implements Stampa {
 	}
 	
 	@Override
-	public String pripremiZaStampu() {
-		return getSadrzaj();
+	public List<String> pripremiZaStampu() {
+		List<String> lista = new ArrayList<>();
+		lista.add(getSadrzaj());
+		return lista;
 	}
 
 }

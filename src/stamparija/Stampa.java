@@ -1,6 +1,8 @@
 package stamparija;
 
+import java.util.List;
+
 public interface Stampa extends Prikazi {
 
-	public String pripremiZaStampu();
+	public List<String> pripremiZaStampu();
 }
